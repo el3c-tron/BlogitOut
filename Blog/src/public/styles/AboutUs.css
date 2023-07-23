@@ -1,0 +1,51 @@
+
+:root {
+    --blue: rgb(0, 153, 255);
+    --dark-blue: rgb(0, 122, 204);
+    --white: rgb(255, 255, 255);
+    --shadow: rgb(232, 232, 232);
+    --shadow-hover: rgba(232, 232, 232, 0.5);
+    --grey: rgb(100, 100, 100);
+    --grey-hover: rgba(170, 170, 170, 0.5);
+    --red: rgb(251, 57, 88);
+}
+
+.aboutus-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 78vh;
+    padding-inline:6rem ;
+}
+
+.aboutus-heading{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.aboutus-content{
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+.about-highlight{
+
+    font-weight: 600;
+    font-size: 1.12rem;
+}
+
+
+.content-links{
+    text-decoration: underline;
+    font-weight: 600;
+    /* text-decoration: none; */
+    color: var(--dark-blue);
+}
+.content-links:hover{
+    color: var(--blue);
+}
